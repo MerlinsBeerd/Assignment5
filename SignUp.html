@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Candlelight Writing</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <nav>
+        <div class="row">
+            <ul class="nav">
+
+                <li>
+                    <a href="index.html"><img src="Pictures/Logo.png" alt="Pineapple Logo" height="100"></a></li>
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="writingtips.html">Writing Tips</a></li>
+                <li><a href="recommend.html">We Recommend</a></li>
+                <li><a href="Levels.html">Levels</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="signup.html">Sign-Up</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="signup">
+
+        <h1>Sign Up For Our Newsletter:</h1>
+
+        <form method="get">
+
+            <label>First Name:<input type="text" name="fname" id="fname"></label>
+            <br><br>
+
+            <label>Last Name:<input type="text" name="lname" id="lname"></label>
+            <br><br>
+
+            <label>Email:<input type="text" name="email" id="email"></label>
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" name="password">
+            <br><br>
+
+            <label for="comments">Comments:</label>
+            <br>
+
+            <textarea name="comments" id="comments" rows="4" cols="40"></textarea>
+            <br><br>
+            <h3>How Often Do You Write Each Week?</h3>
+            <select name="frequency">
+                <option value="0">-select one-</option>
+                <option value="1">Once</option>
+                <option value="2">2-3 Times</option>
+                <option value="3">4+ Times</option>
+            </select>
+            <h3>Select All That Apply:</h3>
+            <fieldset>
+                <legend>The Only Things That Matter</legend>
+                <input type="checkbox" name="check1" value="check">I have an Undergraduate Diploma<br>
+                <input type="checkbox" name="check2" value="check">I have a Highschool Diploma<br>
+                <input type="checkbox" name="check3" value="check">I have a Part-Time Job<br>
+                <input type="checkbox" name="check4" value="check">I have a Full-Time Job<br>
+                <input type="checkbox" name="check5" value="check">I am currently taking classes<br>
+                <input type="radio" name="gender" value="male">Male<br>
+                <input type="radio" name="gender" value="female">Female<br>
+            </fieldset>
+
+            <input type="submit"> <input type="reset">
+
+        </form>
+    </div>
+
+
+</body>
+
+</html>
